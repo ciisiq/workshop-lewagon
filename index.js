@@ -35,15 +35,15 @@ const decideWinner = (a, b) => {
     (a === "🤚" && b === "🤚") ||
     (a === "✌️" && b === "✌️")
   ) {
-    /* 3a. */ return (resultArea.innerHTML = "It's a drawn!");
+    /* 3a. */ return (resultArea.innerHTML = "It's a drawn! 😅");
   } else if (
     (a === "✊" && b === "✌️") ||
     (a === "🤚" && b === "✊") ||
     (a === "✌️" && b === "🤚")
   ) {
-    /* 3b. */ return (resultArea.innerHTML = "Player 1 Win!");
+    /* 3b. */ return (resultArea.innerHTML = "Player 1 Win! 🎉");
   } else {
-    /* 3c. */ return (resultArea.innerHTML = "Player 2 Win!");
+    /* 3c. */ return (resultArea.innerHTML = "Player 2 Win! 🎉");
   }
 };
 
