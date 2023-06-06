@@ -41,9 +41,9 @@ const decideWinner = (a, b) => {
     (a === "🤚" && b === "✊") ||
     (a === "✌️" && b === "🤚")
   ) {
-    /* 3b. */ return (resultArea.innerHTML = "Player 1 Win! 🎉");
+    /* 3b. */ return (resultArea.innerHTML = "Player 1 Wins! 🎉");
   } else {
-    /* 3c. */ return (resultArea.innerHTML = "Player 2 Win! 🎉");
+    /* 3c. */ return (resultArea.innerHTML = "Player 2 Wins! 🎉");
   }
 };
 
